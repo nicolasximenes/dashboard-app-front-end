@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="pt-BR">
+   <head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+
+   <!-- Status bar Theme Color -->
+   <meta name="theme-color" content="#00b5f9">
+   <meta name="msapplication-navbutton-color" content="#00b5f9">
+   <meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+   <title>Dashboard | Home</title>
+
+   <!-- Normalize HTML5 Reset -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.min.css">
+   <!-- Material Design Icons -->
+   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+   <!-- styles.css Link -->
+   <link rel="stylesheet" href="css/styles.css">
+</head>
+
+   <body>
+      <!-- Sidebar -->
+<div class="sidebar clearfix">
+   <div class="logo"><a href="#"><i class="material-icons">cloud_circle</i></a></div>
+   <nav>
+      <a href="#" class="link"><i class="material-icons">access_time</i>Recent<span class="badge">3</span></a>
+      <a href="#" class="link"><i class="material-icons">insert_drive_file</i>Files</a>
+      <a href="#" class="link"><i class="material-icons">photo</i>Photos</a>
+      <a href="#" class="link"><i class="material-icons">group</i>Sharing</a>
+      <a href="#" class="link"><i class="material-icons">link</i>Links</a>
+      <br>
+      <a href="#" class="link"><i class="material-icons">delete</i>Deleted Files</a>
+   </nav>
+
+   <div class="storage-info">
+      <p>50 GB / 100 GB <span class="badge">+</span></p>
+      <div class="bar"><span></span></div>
+   </div>
+
+   <a href="#" class="button button-upload"><i class="material-icons">arrow_upward</i> Upgrade Account</a>
+</div>
+
+
+      <!-- Content -->
+<div class="content clearfix">
+   <div class="container">
+      <div class="navtop">
+   <div class="input-group">
+      <i class="material-icons">search</i>
+      <input type="search" placeholder="Search">
+   </div>
+   <ul class="menu">
+      <li>
+         <a href="#"><i class="material-icons">notifications</i></a>
+      </li>
+      <li>
+         <a href="#" class="dropdown"><span class="profile-name">John Doe</span><i class="material-icons">arrow_drop_down</i></a>
+         <ul class="dropdown-menu">
+            <li><a href="#">My Account</a></li>
+            <li><a href="#">Sign Out</a></li>
+         </ul>
+      </li>
+   </ul>
+</div>
+
+      <header>
+         <h2 class="title">Photos</h2>
+         <div class="actions">
+            <a href="#" class="action-btn"><i class="material-icons">file_upload</i></a>
+            <a href="#" class="action-btn"><i class="material-icons">create_new_folder</i></a>
+            <a href="#" class="action-btn"><i class="material-icons">folder_shared</i></a>
+            <a href="#" class="action-btn"><i class="material-icons">delete</i></a>
+         </div>
+         <div class="filter-toggle">
+            <a href="#" class="active">Name</a>
+            <a href="#">Size</a>
+            <a href="#">Modified</a>
+         </div>
+      </header>
+   </div>
+</div>
+
+
+
+      <!-- Float Action Button -->
+<div class="fab-wrapper">
+   <button class="fab"><i class="material-icons">add</i></button>
+</div>
+
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="js/main.js"></script>
+
+   </body>
+</html>
