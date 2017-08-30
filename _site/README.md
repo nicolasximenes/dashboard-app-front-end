@@ -9,7 +9,7 @@ Make sure you have installed Jekyll and Sass
 $ jekyll server
 ```
 
-## Tecnologies
+## Technologies
 - HTML
 - CSS
 - JavaScript
